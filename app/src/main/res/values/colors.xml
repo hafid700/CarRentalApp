@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#0066FF</color>
+    <color name="primaryDark">#0066FF</color>
+
+
+
+
+
+    <color name="textSecondary">#6B6B6B</color>
+
+
+
+
+
+    <color name="colorAccentRed">#FF4B4B</color>
+
+    <color name="colorPrimary">#1A6BFF</color>
+    <color name="background">#F5F0EB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="textPrimary">#222222</color>
+    <color name="hint">#AAAAAA</color>
+    <color name="border">#DDDDDD</color>
+
+    <!-- Login Screen -->
+    <color name="primary_blue">#1A6BFF</color>
+    <color name="bg_cream">#F5F0EB</color>
+    <color name="border_grey">#D8D8D8</color>
+    <color name="icon_grey">#AAAAAA</color>
+    <color name="hint_grey">#AAAAAA</color>
+    <color name="text_dark">#1A1A2E</color>
+
+
+</resources>

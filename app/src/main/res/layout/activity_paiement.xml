@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- ICON CARTE -->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_card"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- MONTANT -->
+        <TextView
+            android:id="@+id/montantTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAD 0.00"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- CARD CONTAINER -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="20dp"
+            android:elevation="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- NOM -->
+            <EditText
+                android:id="@+id/fullName"
+                android:hint="Full Name"
+                android:padding="12dp"
+                android:background="@android:drawable/edit_text"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- NUMERO CARTE -->
+            <EditText
+                android:id="@+id/cardNumber"
+                android:hint="Card Number"
+                android:inputType="number"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- DATE + ZIP -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/expiryDate"
+                    android:hint="MM/YY"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/zipCode"
+                    android:hint="ZIP"
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <!-- PAYS -->
+            <EditText
+                android:id="@+id/country"
+                android:hint="Country"
+                android:padding="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <!-- BOUTON PAIEMENT -->
+        <Button
+            android:id="@+id/payerBtn"
+            android:text="Pay Now"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#0066FF"
+            android:layout_marginTop="24dp"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

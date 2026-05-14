@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CarRentalApp</string>
+    <string name="title_activity_login.xml">activity_login.xml</string>
+    <string name="title_activity_login">activity_login</string>
+</resources>
